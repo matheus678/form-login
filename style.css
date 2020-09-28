@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.wallpapersafari.com/76/79/Vn73Oo.jpg);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+  
+  form {
+    display: flex;
+    flex-flow: column;
+    width: 350px;
+    background-color: aqua;
+    box-shadow: aquamarine 0.1px 0.1px 10px 0.1px;
+  }
+  
+  input {
+    display: block;
+    height: 25px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 25px;
+    font-size: large;
+    padding: 10px 20px;
+  }
+  
+  input,
+  button,
+  a {
+    outline: none;
+  }
+  
+  form .linha {
+    display: flex;
+    flex-flow: row;
+  }
+  
+  form .linha1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 20pt;
+    font-family: 'Poiret One';
+    color: cadetblue;
+  }
+  
+  a {
+    color: cadetblue;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .linhaentrar {
+    text-align: center;
+  }
+  
+  button {
+    height: 42px;
+    width: 150px;
+    margin: 15px;
+    border-radius: 25px;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border: none;
+    color: cadetblue;
+    cursor: pointer;
+    width: 315px;
+  }
